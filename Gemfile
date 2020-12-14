@@ -43,6 +43,7 @@ group :development do
   gem 'spring-commands-rspec'
 # ファイル変更時に自動テストを行う
   gem 'guard-rspec', require: false
+  gem 'rubocop-airbnb'
 end
 
 group :test do
