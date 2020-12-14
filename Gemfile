@@ -39,13 +39,16 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  # テストスイートの起動時間を速くする
   gem 'spring-commands-rspec'
+# ファイル変更時に自動テストを行う
   gem 'guard-rspec', require: false
 end
 
 group :test do
   gem  "capybara"
   gem 'rspec-rails'
+  # Webサイトの自動テストを作成するためのツール
   gem 'selenium-webdriver'
   gem 'webdrivers'
 end
