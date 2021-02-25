@@ -27,10 +27,6 @@ gem 'jbuilder', '~> 2.7'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
-# slimのジェネレーターを提供するgem
-gem 'slim-rails'
-# erb => slim記法に変換するgem
-gem 'html2slim'
 gem 'devise'
 
 group :development, :test do
